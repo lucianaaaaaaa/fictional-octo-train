@@ -1,52 +1,60 @@
 .contenedor{
     display: flex;
     flex-direction: row;
-    justify-content:center;
-    flex-wrap: wrap;
-    align-items: flex-end;
+    justify-content:flex-start;
+    /*flex-wrap: wrap;*/
+    align-items: flex-start;
+    align-content: center;
     height: 700px;
     background-color: #8b8c89;
-    align-content: center;
 }
 
 .caja-1{
-    width: 500px;
-    height: 80px;
+    flex-basis: 900px;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+    flex: 900px 1 1;
+
     font-size: 85px;
     color: white;
     background-color: #001219;
 }
 .caja-2{
-    width: 500px;
-    height: 80px;
+    flex-basis: 900px;
+    flex-grow: 2;
+    flex-shrink: 2;
+
     font-size: 85px;
     color: white;
     background-color: #005f73;
 }
 .caja-3{
-    width: 500px;
-    height: 80px;
+    flex-basis: 900px;
+    flex-grow: 1;
+    flex-shrink: 1;
+
     font-size: 85px;
     color: white;
     background-color: #0a9396;
 }
 .caja-4{
     width: 500px;
-    height: 80px;
+    
     font-size: 85px;
     color: white;
     background-color: #94d2bd;
 }
 .caja-5{
     width: 500px;
-    height: 80px;
+    
     font-size: 85px;
     color: white;
     background-color: #e9d8a6;
 }
 .caja-6{
     width: 500px;
-    height: 80px;
+    
     font-size: 85px;
     color: white;
     background-color: #ee9b00;
